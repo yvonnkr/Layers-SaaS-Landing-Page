@@ -44,12 +44,12 @@ export default function Hero() {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="bg-transparent px-4 flex-1 min-w-0 outline-none"
+                        className="bg-transparent px-4 md:flex-1 w-full outline-none"
                     />
                     <Button
                         type="submit"
                         variant="primary"
-                        className="whitespace-nowrap px-4 py-2"
+                        className="whitespace-nowrap"
                         size="sm"
                     >
                         Sign Up
