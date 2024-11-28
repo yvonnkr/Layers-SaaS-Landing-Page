@@ -23,9 +23,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} font-sans antialiased bg-zinc-950 text-white pb-[1200px]`}
+                className={`${inter.variable} font-sans antialiased bg-zinc-950 text-white`}
             >
-                {/*TODO: REMOVE PB-[1200px] BEFORE DEPLOYING TO PROD*/}
                 {children}
             </body>
         </html>
