@@ -15,9 +15,15 @@ export default function Home() {
             <Hero />
             <LogoTicker />
             <Introduction />
-            <Features />
-            <Integrations />
-            <Faqs />
+            <div id="features">
+                <Features />
+            </div>
+            <div id="integrations">
+                <Integrations />
+            </div>
+            <div id="faqs">
+                <Faqs />
+            </div>
             <CallToAction />
             <Footer />
         </>

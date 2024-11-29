@@ -118,15 +118,24 @@ export default function Navbar() {
                                                 key={link.label}
                                                 href={link.href}
                                                 className=""
+                                                onClick={() =>
+                                                    setIsOpen(!isOpen)
+                                                }
                                             >
                                                 {link.label}
                                             </a>
                                         ))}
 
-                                        <Button variant="secondary">
+                                        <Button
+                                            variant="secondary"
+                                            onClick={() => setIsOpen(!isOpen)}
+                                        >
                                             Log In
                                         </Button>
-                                        <Button variant="primary">
+                                        <Button
+                                            variant="primary"
+                                            onClick={() => setIsOpen(!isOpen)}
+                                        >
                                             Sign Up
                                         </Button>
                                     </div>
